@@ -1,0 +1,55 @@
+.cabecalho {
+    background-color: rgb(230, 230, 232);
+    display: flex;
+    height: 50px;
+    padding: 10px;
+}
+
+h2{
+    margin-top: 15px;
+}
+
+.header {
+    display: flex;
+    margin: 20px;
+}
+
+.cabecalho nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.cabecalho nav {
+    margin-top: 23px;
+    margin-left: 50px;
+}
+
+.cabecalho nav ul li{
+    margin-right: 20px;
+}
+
+/* .cabecalho nav ul {
+    background-color: rgb(131, 178, 225);
+    display: flex; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho nav ul li {
+    margin-right: 20px;
+}
+
+.cabecalho nav ul li:last-child {
+    margin-right: 0; 
+}
+
+.campo {
+    background: none;
+    border: none;
+    outline: none; 
+}
+
+.icone {
+    width: 40px;
+} */

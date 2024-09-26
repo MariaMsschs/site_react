@@ -1,0 +1,41 @@
+.titulo {
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    margin-top: 10px;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: rgb(241, 240, 240);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    padding: 11px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.rotate {
+    transform: rotate(180deg);
+    width: 24px;
+    height: 24px;
+}
+
+.circles {
+    display: flex;
+}
+
+.setas {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1000px;
+}
+
+.produto {
+    justify-content: center;
+}

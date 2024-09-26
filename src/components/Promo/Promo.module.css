@@ -1,0 +1,47 @@
+.fundo {
+    background-color: black;
+    height: 48px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.dropdown {
+    background: none;
+    color: white;
+    border: none;
+    position: absolute;
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    right: 7%;
+}
+
+.arrow {
+    width: 15%;
+}
+
+.container {
+    display: flex;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white
+    ;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
