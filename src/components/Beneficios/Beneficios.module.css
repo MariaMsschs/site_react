@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.beneficio {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.titulo{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.desc {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.info {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.imagem {
+    height: 50px;
+    width: 50px;
+}
+
+.divimagem {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}

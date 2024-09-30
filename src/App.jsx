@@ -14,6 +14,8 @@ import Categories from "./components/Categories/Categories.jsx";
 import Setas from "./components/Setas/Setas.jsx"
 import BotaoLateral from "./components/BotaoLateral/BotaoLateral.jsx"
 import Grid from "./components/Grid/Grid.jsx"
+import Beneficios from "./components/Beneficios/Beneficios.jsx";
+import Footer from "./components/Footer/Footer.jsx"
 
 import produto1 from "./assets/produto.png"
 import produto2 from "./assets/produto2.png"
@@ -22,6 +24,7 @@ import produto4 from "./assets/produto4.png"
 import celular from "./assets/celular.png"
 import hero from "./assets/hero.png";
 import hero2 from "./assets/hero2.png";
+import services from "./assets/Services.png"
 
 function App() {
 const sub1 = "Today's"
@@ -42,6 +45,8 @@ const preco = "R$ 189,90"
 const botao = "View all products"
 const botao2 = "View all"
 const word1 = "Phones"
+const principal = "FREE AND FAST DELIVERY"
+const secundario = "Free delivery for all orders over $140"
   return (
     <>  
       <Promo/>
@@ -82,6 +87,10 @@ const word1 = "Phones"
       <Subtitle sub = {sub5}/>
       <SectionBar titulo = {titulo5}/>
       <Grid/>
+
+      <Beneficios img={services} titulo={principal} desc={secundario}/>
+
+      <Footer/>
     </>
   );
 }
