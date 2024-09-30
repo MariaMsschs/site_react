@@ -1,5 +1,9 @@
 .subtitulo {
     color: #db4444;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .container {

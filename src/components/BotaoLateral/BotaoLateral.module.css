@@ -1,0 +1,18 @@
+.botao{
+    display: flex;
+    background-color: #db4444;
+    color: white;
+    width: 200px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 60px;
+    font-family: Poppins;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+}

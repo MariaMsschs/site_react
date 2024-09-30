@@ -1,10 +1,9 @@
 import React from "react";
-import hero from "../../assets/hero.png";
 import styles from './Hero.module.css';
 
-const Hero = () => {
+const Hero = ({img}) => {
     return <div className={styles.hero}>
-        <img src={hero} alt="" />
+        <img src={img} alt="" />
     </div>;
 };
 

@@ -8,6 +8,11 @@
     position: relative;
 }
 
+option {
+    background-color: rgb(233, 234, 234);
+    color: black;
+}
+
 .dropdown {
     background: none;
     color: white;
@@ -16,14 +21,13 @@
 }
 
 .container {
+    margin-right: 50px;
+    margin-bottom: 15px;
     display: flex;
     position: absolute;
     right: 7%;
 }
 
-.arrow {
-    width: 15%;
-}
 
 .container {
     display: flex;
@@ -44,4 +48,10 @@ a:hover {
 
 a:active {
     color: white;
+}
+
+p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
 }

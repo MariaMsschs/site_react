@@ -6,7 +6,7 @@ function Promo(){
         <div className= {styles.fundo}>
             <p>
                 Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
-                <a href="">Shop Now</a>
+                <a href=""> Shop Now</a>
             </p>
             <div class={styles.container}>
                 <select className={styles.dropdown} id="">

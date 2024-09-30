@@ -16,9 +16,13 @@ function Header(){
                         <li>Sign Up</li>
                     </ul>
                 </nav>
-                <div className="shop">
-                    <div className='busca'>
+                <div className={styles.shop}>
+                    <div className={styles.busca}>
                         <input type="text" name="" placeholder='What are you looking for?'/>
+                    </div>
+                    <div className={styles.icones}>
+                        <img className={styles.core} src={core} alt="" />
+                        <img className={styles.carro} src={carro} alt=""/>
                     </div>
                 </div>
         </header>

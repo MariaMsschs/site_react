@@ -1,0 +1,24 @@
+.setas{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: rgb(241, 240, 240);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    padding: 11px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    width: 24px;
+    height: 24px;
+}

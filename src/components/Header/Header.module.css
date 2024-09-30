@@ -1,12 +1,17 @@
 .cabecalho {
-    background-color: rgb(230, 230, 232);
+    background-color: rgb(255, 255, 255);
     display: flex;
     height: 50px;
     padding: 10px;
+    justify-content: space-evenly;
+    border-bottom: solid 2px rgba(209, 209, 209, 0.267);
 }
 
 h2{
     margin-top: 15px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .header {
@@ -26,30 +31,35 @@ h2{
 
 .cabecalho nav ul li{
     margin-right: 20px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
 }
 
-/* .cabecalho nav ul {
-    background-color: rgb(131, 178, 225);
-    display: flex; 
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.shop {
+    display: flex;
+    justify-content: center;
 }
 
-.cabecalho nav ul li {
-    margin-right: 20px;
+.busca {
+    margin-top: 25px;
 }
 
-.cabecalho nav ul li:last-child {
-    margin-right: 0; 
+.carro {
+    width: 30px;
+    height: 30px;
 }
 
-.campo {
-    background: none;
-    border: none;
-    outline: none; 
+.core {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 
-.icone {
-    width: 40px;
-} */
+.icones {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-top: 15px;
+}
